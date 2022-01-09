@@ -27,6 +27,12 @@ Next do the followings:
 
 ```bash
 # cs188 is the name of the conda environment, you can name it anything you like.
+conda create --name cs188
+
+# You can list all the conda envs using the following command.
+conda info --envs
+
+# Activate the conda env.
 conda activate cs188
 
 # Initialize.
