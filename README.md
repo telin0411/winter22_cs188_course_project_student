@@ -1,4 +1,4 @@
-# Winter2022 cs188 Course Project Guideline
+# UCLA Winter2022 CS188 Course Project Guideline
 
 # Table of Contents
 
