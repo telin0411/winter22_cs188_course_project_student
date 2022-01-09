@@ -41,7 +41,8 @@ conda init
 # Install the pip in this conda environment.
 conda install pip
 
-# And use the following to deactivate the conda environment once you are done.
+# And use the following to deactivate the conda environment 
+# if you're done with some jobs and wish to log out.
 conda deactivate
 ```
 
