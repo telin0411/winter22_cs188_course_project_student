@@ -178,7 +178,7 @@ Serving TensorBoard on localhost; to expose to the network, use a proxy or pass 
 TensorBoard 2.7.0 at http://localhost:6006/ (Press CTRL+C to quit)
 ```
 Since the `localhost` is on the server, unless you can directly access to the GUI on the server, you may find this **[SSH Tunneling](https://coderwall.com/p/ohk6cg/remote-access-to-ipython-notebooks-via-ssh)** handy.  
-For example, if you execute the following command:
+For example, if you execute the following command **on your local terminal**:
 ```bash
 ssh -N -f -L localhost:6006:localhost:6006 your_id@the_server_name
 ```
