@@ -163,7 +163,7 @@ It is often important to visualize your training curves and other essential info
 People often use [TensorBoard](https://pytorch.org/tutorials/recipes/recipes/tensorboard_with_pytorch.html) (the PyTorch compatible version) for this purpose.  
 Please check the introduction in the link to get familiar with this very useful tool.
 
-Each execution of your codes will automatically create a subfolder under the folder `runs`, e.g. `runs/Jan01_06-03-20_pluslab-a100_ckpts_dummy` can be a subfolder contain tensorboard events of one of your execution.  
+Each execution of your codes will automatically create a subfolder under the folder `runs`, e.g. `runs/Jan01_06-03-20_pluslab-a100_ckpts_dummy` can be a subfolder containing tensorboard events of one of your execution.  
 Executing the following command a tensorboard-in-browser will be rendered:
 
 ```bash
