@@ -79,6 +79,8 @@ def mask_tokens(inputs, tokenizer, args, special_tokens_mask=None):
 
 def pairwise_accuracy(guids, preds, labels):
 
+    acc = 0.0  # The accuracy to return.
+    
     ########################################################
     # TODO: Please finish the pairwise accuracy computation.
     # Hint: Utilize the `guid` as the `guid` for each
