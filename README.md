@@ -27,7 +27,7 @@ Next do the followings:
 
 ```bash
 # cs188 is the name of the conda environment, you can name it anything you like.
-conda create --name cs188
+conda create -n cs188 python==3.8
 
 # You can list all the conda envs using the following command.
 conda info --envs
@@ -50,6 +50,9 @@ And then install all the required packages simply by:
 
 ```bash
 pip install --upgrade pip
+
+# Install PyTorch, the --no-cache-dir allows you to install on a machine with small RAM
+pip3 --no-cache-dir install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 # The below command will bulk install everything needed.
 pip install -r requirements.txt
