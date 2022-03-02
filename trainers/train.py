@@ -360,8 +360,10 @@ def evaluate(args, model, tokenizer, prefix="", data_split="test"):
         batch = tuple(t.to(args.device) for t in batch)
 
         if not args.do_train or (args.do_train and args.eval_split != "test"):
-            guid = batch[-1].cpu().numpy()[0]
-            guids.append(guid)
+            # guid = batch[-1].cpu().numpy()[0]
+            # guids.append(guid)
+            guid = list(batch[-1].cpu().numpy())
+            guids += guid
 
         with torch.no_grad():
             # Processes a batch.
